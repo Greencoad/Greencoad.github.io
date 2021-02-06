@@ -96,7 +96,7 @@ p{
 	height: auto;
 }
 #header .header {
-	min-height: 8vh;
+	min-height: 10vh;
 	background-color: rgba(31, 30, 30, 0.24);
 	transition: .3s ease background-color;
 }
@@ -106,7 +106,7 @@ p{
 	justify-content: space-between;
 	width: 100%;
 	height: 100%;
-	max-width: 1300px;
+	max-width: 1400px;
 	padding: 0 10px;
 }
 #header .nav-list ul {
@@ -126,7 +126,7 @@ p{
 	transition: .5s ease left;
 }
 #header .nav-list ul.active {
-	left: 0%;
+	left: 0;
 }
 #header .nav-list ul a {
 	font-size: 2.5rem;

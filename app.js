@@ -1,10 +1,11 @@
-const mobile_menu = document.querySelector('.navbar-toggler .nav-bar .nav-list ul');
-const menu_item = document.querySelectorAll('.navbar-toggler .nav-bar .nav-list ul li a');
-const header = document.querySelector('.navbar-toggler.container');
-const navbartoggler= document.querySelector(".navbar-toggler .navbar-collapse .navbar-nav .nav-item .nav-link")
+const hamburger = document.querySelector(".header .nav-bar .nav-list .hamburger");
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header.nav-bar .nav-list ul li a');
+const header = document.querySelector('.header .container');
+// const navbartoggler= document.querySelector(".navbar-toggler .navbar-collapse .navbar-nav .nav-item .nav-link")
 
-navbartoggler.addEventListener('click', () => {
-    navbartoggler.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle("active");
 	mobile_menu.classList.toggle('active');
 });
 
